@@ -6,8 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Surprise}/>
-        {/* <Route path="/surprise" component={Surprise}/> */}
+        <Route exact path="/" component={Home}/>
+        <Route path="/surprise" component={Surprise}/>
       </Switch>
     </BrowserRouter>
   )
